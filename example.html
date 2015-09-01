@@ -11,6 +11,7 @@
     <title>Bunch-O-Buttons</title>
 
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bunch-o-buttons.css" rel="stylesheet">
@@ -498,5 +499,21 @@
 </div>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/waypoints/lib/jquery.waypoints.js"></script>
+<script>
+(function($) {
+    $(document).ready(function() {
+        var thingys = $('.buttons, h1, .buttons-label');
+        thingys.css({ 'visibility': 'hidden' }); // Hide, but not forgotten... //
+        thingys.waypoint(function(dir) {
+            var element = $(this.element);
+            element.css({ 'visibility': 'visible' }); // Hide, but not forgotten... //
+            element.addClass('animated fadeInUp');
+        },{
+          offset: '95%'
+        });
+    });
+})(jQuery || $);
+</script>
 </body>
 </html>
