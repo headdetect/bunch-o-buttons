@@ -7,11 +7,20 @@
   border: 2px solid transparent;
   overflow: hidden;
 
+  &.btn-big {
+    @keyframes sheen {
+      100% {
+        transform: skewY(-45deg) translateX(22.5em);
+      }
+    }
+  }
   @keyframes sheen {
     0% {
       transform: skewY(-45deg) translateX(0);
     }
+
     100% {
+
       transform: skewY(-45deg) translateX(12.5em);
     }
   }
@@ -27,6 +36,7 @@
   &:hover.disabled,
   &:active.disabled,
   &:focus.disabled {
+
     background: transparent;
     &.btn-default { color: $default-dark; border-color: $default-dark }
     &.btn-primary { color: $primary; border-color: $primary }
@@ -50,7 +60,9 @@
     transition: none;
   }
 
-  &:hover:not(.disabled) {
+  &:hover:not(.disabled),
+  &:active:not(.disabled),
+  &:focus:not(.disabled) {
     color: white;
     border-bottom: 4px solid transparent;
 
@@ -61,6 +73,11 @@
     &.btn-info { background-color: $info; border-color: darken($info, 15%) }
     &.btn-success { background-color: $success; border-color: darken($success, 15%) }
 
+    &.btn-big {
+      &:before {
+        transform: skewX(-45deg) translateX(23.5em);
+      }
+    }
     &:before {
       transform: skewX(-45deg) translateX(13.5em);
       transition: all 0.5s ease-in-out;

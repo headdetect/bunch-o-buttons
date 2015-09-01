@@ -13,6 +13,7 @@
   &.btn-success { background-color: $success; border-color: darken($success, 15%) }
 
   .disabled,
+  &:focus.disabled,
   &:hover.disabled,
   &:active.disabled {
     &.btn-default { background-color: $default; border-color: darken($default, 15%) }
@@ -23,7 +24,8 @@
     &.btn-success { background-color: $success; border-color: darken($success, 15%) }
   }
 
-  &:hover:not(.disabled) {
+  &:hover:not(.disabled),
+  &:focus:not(.disabled) {
     top: -2px;
     border-bottom: 4px solid transparent;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);

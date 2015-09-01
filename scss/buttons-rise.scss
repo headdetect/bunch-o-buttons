@@ -25,6 +25,7 @@
   }
 
 
+  &:focus:not(.disabled),
   &:hover:not(.disabled) {
     top: 0;
     box-shadow: none;

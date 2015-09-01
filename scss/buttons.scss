@@ -17,18 +17,24 @@
     outline: 0;
     outline: none;
   }
-}
 
-.btn-round {
-  border-radius: 25px;
+  &.btn-round {
+    border-radius: 25px;
 
-  &:hover {
-    border-color: transparent;
+    &:hover {
+      border-color: transparent;
+    }
   }
-}
 
-.btn-square {
-  border-radius: 0;
+  &.btn-square {
+    border-radius: 0;
+  }
+
+  &.btn-big {
+    height: 100px;
+    font-size: 2.2em;
+    padding: 20px 40px;
+  }
 }
 
 .btn-group {

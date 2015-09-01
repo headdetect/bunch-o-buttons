@@ -13,6 +13,8 @@
   &.btn-success { @include linear-gradient(bottom, $success, lighten($success, 9%)) }
 
 
+  &:focus,
+  &:focus.disabled
   &.active.disabled,
   &:hover.disabled,
   &.disabled,

@@ -1,7 +1,36 @@
+@import "mixins";
+
 section {
   width: 100%;
   min-height: 300px;
-  margin: 150px auto;
+  padding: 150px 0;
+  margin: 0 auto;
+  font-weight: bold;
+
+  &#buttons-header {
+    color: white;
+    background: #333;
+    h1 {
+      font-size: 6em;
+    }
+  }
+  &#buttons-flat {
+    background: #fafafa;
+  }
+  &#buttons-outline {
+    background: #f1f1f1;
+  }
+  &#buttons-raised {
+    background: #fefefe;
+  }
+  &#buttons-shiny {
+    @include linear-gradient(top, #efefef, #fefefe);
+  }
+  &#buttons-smooth {
+    color: white;
+
+    background: url('/images/smooth-bg.jpg');
+  }
 
   .buttons-header {
     text-align: right;
@@ -10,7 +39,7 @@ section {
   }
 
   .buttons-label {
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: right;
     font-size: 2em;
     height: 50px; // match button height //
@@ -18,7 +47,7 @@ section {
 
   .buttons {
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
 
     .btn-group .btn {
       &:first-child {
