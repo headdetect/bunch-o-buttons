@@ -1,0 +1,92 @@
+// Material Design Theme //
+$material_default: #ddd;
+$material_default_dark: #333;
+$material_primary: #0277BD;
+$material_success: #4CAF50;
+$material_info: #673AB7;
+$material_warning: #FF9800;
+$material_danger: #F44336;
+
+
+// Bootstrap Design Theme //
+$bootstrap_default: lighten(#000, 93.5%);
+$bootstrap_default_dark: lighten(#000, 20%);
+$bootstrap_primary: darken(#428bca, 6.5%);
+$bootstrap_success: #5cb85c;
+$bootstrap_info: #5bc0de;
+$bootstrap_warning: #f0ad4e;
+$bootstrap_danger: #d9534f;
+
+// UIKit Design Theme //
+$uikit_default: #eee;
+$uikit_default_dark: #444;
+$uikit_primary: #00a8e6;
+$uikit_success: #8cc14c;
+$uikit_info: #2d7091;
+$uikit_warning: #faa732;
+$uikit_danger: #da314b;
+
+
+// Orangey Design Theme //
+$orangey_default: #ddd;
+$orangey_default_dark: #333;
+$orangey_primary: #69d2e7;
+$orangey_success: #a7dbd8;
+$orangey_info: #9a9e86;
+$orangey_warning: #f38630;
+$orangey_danger: #fa6900;
+
+
+// Blueish Design Theme //
+$blueish_default: #ddd;
+$blueish_default_dark: #333;
+$blueish_primary: #44749d;
+$blueish_success: #449d61;
+$blueish_info: #a6b3be;
+$blueish_warning: #b2923d;
+$blueish_danger: #b2563d;
+
+// Neon Design Theme //
+$neon_default: #ddd;
+$neon_default_dark: #333;
+$neon_primary: #1A1AFF;
+$neon_success: #1AFF1A;
+$neon_info: #8C1AFF;
+$neon_warning: #FF8C1A;
+$neon_danger: #FF1A1A;
+
+// Purpange Theme //
+$purpange_default: #ddd;
+$purpange_default_dark: #333;
+$purpange_primary: #300030;
+$purpange_success: #480047;
+$purpange_info: #601848;
+$purpange_warning: #f07241;
+$purpange_danger: #c04848;
+
+// Cozy Theme //
+$cozy_default: #ddd;
+$cozy_default_dark: #333;
+$cozy_primary: #229A9A;
+$cozy_success: #2FAA2F;
+$cozy_info: #6C2D8E;
+$cozy_warning: #FF9238;
+$cozy_danger: #FF3838;
+
+// Rich Theme //
+$rich_default: #ddd;
+$rich_default_dark: #333;
+$rich_primary: #144CCC;
+$rich_success: #3AC01E;
+$rich_info: #29334A;
+$rich_warning: #FFAA00;
+$rich_danger: #E62424;
+
+// Assigned Color Scheme //
+$default:       $material_default;
+$default-dark:  $material_default_dark;
+$primary:       $material_primary;
+$success:       $material_success;
+$info:          $material_info;
+$warning:       $material_warning;
+$danger:        $material_danger;

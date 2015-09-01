@@ -1,0 +1,30 @@
+@import 'mixins';
+@import 'colors';
+
+.btn-smooth {
+  border: none;
+  transition: none;
+
+  &.btn-default { @include linear-gradient(bottom, $default, lighten($default, 3%)) }
+  &.btn-primary { @include linear-gradient(bottom, $primary, lighten($primary, 9%)) }
+  &.btn-danger  { @include linear-gradient(bottom, $danger, lighten($danger, 9%)) }
+  &.btn-warning { @include linear-gradient(bottom, $warning, lighten($warning, 9%)) }
+  &.btn-info { @include linear-gradient(bottom, $info, lighten($info, 9%)) }
+  &.btn-success { @include linear-gradient(bottom, $success, lighten($success, 9%)) }
+
+
+  &.active.disabled,
+  &:hover.disabled,
+  &.disabled,
+  &:active,
+  &:hover {
+    border: none;
+
+    &.btn-default { background: $default}
+    &.btn-primary { background: $primary }
+    &.btn-danger  { background: $danger}
+    &.btn-warning { background: $warning }
+    &.btn-info { background: $info }
+    &.btn-success { background: $success }
+  }
+}

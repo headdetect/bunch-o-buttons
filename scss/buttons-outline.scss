@@ -1,0 +1,45 @@
+@import 'colors';
+
+.btn-outline {
+  border: 1px solid transparent;
+  background: transparent;
+
+  &.btn-default { color: $default-dark; border-color: $default-dark }
+  &.btn-primary { color: $primary; border-color: $primary }
+  &.btn-danger  { color: $danger; border-color: $danger }
+  &.btn-warning { color: $warning; border-color: $warning }
+  &.btn-info { color: $info; border-color: $info }
+  &.btn-success { color: $success; border-color: $success }
+
+  &.disabled,
+  &:hover.disabled,
+  &:active.disabled,
+  &:focus.disabled {
+    background: transparent;
+    &.btn-default { color: $default-dark; border-color: $default-dark }
+    &.btn-primary { color: $primary; border-color: $primary }
+    &.btn-danger  { color: $danger; border-color: $danger }
+    &.btn-warning { color: $warning; border-color: $warning }
+    &.btn-info { color: $info; border-color: $info }
+    &.btn-success { color: $success; border-color: $success }
+  }
+
+
+  &:hover:not(.disabled),
+  &:focus:not(.disabled),
+  &.active:focus:not(.disabled),
+  &:focus:active:not(.disabled),
+  &.active.focus:not(.disabled) {
+    outline: 0;
+    outline: none;
+
+    color: white;
+
+    &.btn-default { background-color: $default-dark; }
+    &.btn-primary { background-color: $primary }
+    &.btn-danger  { background-color: $danger }
+    &.btn-warning { background-color: $warning }
+    &.btn-info { background-color: $info }
+    &.btn-success { background-color: $success }
+  }
+}

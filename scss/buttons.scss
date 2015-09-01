@@ -1,0 +1,46 @@
+.btn {
+  outline: 0;
+  outline: none;
+  transition: 0.1s all ease;
+  padding: 10px 20px;
+  font-weight: 300;
+  height: 50px;
+  line-height: 2em;
+  position: relative;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:active:focus,
+  &:active.focus,
+  &.active.focus {
+    outline: 0;
+    outline: none;
+  }
+}
+
+.btn-round {
+  border-radius: 25px;
+
+  &:hover {
+    border-color: transparent;
+  }
+}
+
+.btn-square {
+  border-radius: 0;
+}
+
+.btn-group {
+  &.btn-group-rounded {
+    .btn {
+      border-radius: 25px;
+    }
+    & > .btn:last-child:not(:first-child),
+    & > .dropdown-toggle:not(:first-child) {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
+

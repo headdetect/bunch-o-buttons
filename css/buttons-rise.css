@@ -1,0 +1,80 @@
+.btn-raised {
+  top: -2px;
+  border: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15); }
+  .btn-raised.btn-default {
+    background-color: #ddd;
+    border-color: #b7b7b7; }
+  .btn-raised.btn-primary {
+    background-color: #0277BD;
+    border-color: #014771; }
+  .btn-raised.btn-danger {
+    background-color: #F44336;
+    border-color: #d2190b; }
+  .btn-raised.btn-warning {
+    background-color: #FF9800;
+    border-color: #b36a00; }
+  .btn-raised.btn-info {
+    background-color: #673AB7;
+    border-color: #46287d; }
+  .btn-raised.btn-success {
+    background-color: #4CAF50;
+    border-color: #357a38; }
+  .btn-raised .disabled.btn-default,
+  .btn-raised:hover.disabled.btn-default,
+  .btn-raised:active.disabled.btn-default {
+    background-color: #ddd;
+    border-color: #b7b7b7; }
+  .btn-raised .disabled.btn-primary,
+  .btn-raised:hover.disabled.btn-primary,
+  .btn-raised:active.disabled.btn-primary {
+    background-color: #0277BD;
+    border-color: #014771; }
+  .btn-raised .disabled.btn-danger,
+  .btn-raised:hover.disabled.btn-danger,
+  .btn-raised:active.disabled.btn-danger {
+    background-color: #F44336;
+    border-color: #d2190b; }
+  .btn-raised .disabled.btn-warning,
+  .btn-raised:hover.disabled.btn-warning,
+  .btn-raised:active.disabled.btn-warning {
+    background-color: #FF9800;
+    border-color: #b36a00; }
+  .btn-raised .disabled.btn-info,
+  .btn-raised:hover.disabled.btn-info,
+  .btn-raised:active.disabled.btn-info {
+    background-color: #673AB7;
+    border-color: #46287d; }
+  .btn-raised .disabled.btn-success,
+  .btn-raised:hover.disabled.btn-success,
+  .btn-raised:active.disabled.btn-success {
+    background-color: #4CAF50;
+    border-color: #357a38; }
+  .btn-raised:hover:not(.disabled) {
+    top: 0;
+    box-shadow: none;
+    border-bottom-width: 1px; }
+  .btn-raised:active:not(.disabled) {
+    top: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.15); }
+    .btn-raised:active:not(.disabled).btn-default {
+      background-color: #ddd;
+      border-color: #b7b7b7; }
+    .btn-raised:active:not(.disabled).btn-primary {
+      background-color: #0277BD;
+      border-color: #014771; }
+    .btn-raised:active:not(.disabled).btn-danger {
+      background-color: #F44336;
+      border-color: #d2190b; }
+    .btn-raised:active:not(.disabled).btn-warning {
+      background-color: #FF9800;
+      border-color: #b36a00; }
+    .btn-raised:active:not(.disabled).btn-info {
+      background-color: #673AB7;
+      border-color: #46287d; }
+    .btn-raised:active:not(.disabled).btn-success {
+      background-color: #4CAF50;
+      border-color: #357a38; }

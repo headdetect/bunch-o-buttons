@@ -1,0 +1,24 @@
+section {
+  width: 100%;
+  min-height: 300px;
+  margin: 150px auto; }
+  section .buttons-header {
+    text-align: right;
+    font-size: 3em;
+    margin-bottom: 20px; }
+  section .buttons-label {
+    margin: 20px auto;
+    text-align: right;
+    font-size: 2em;
+    height: 50px; }
+  section .buttons {
+    text-align: center;
+    margin: 20px auto; }
+    section .buttons .btn-group .btn {
+      margin-left: -1px;
+      margin-right: 0; }
+      section .buttons .btn-group .btn:first-child {
+        margin-left: 0; }
+    section .buttons .btn {
+      margin-left: 10px;
+      margin-right: 10px; }

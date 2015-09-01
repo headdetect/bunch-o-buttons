@@ -1,0 +1,69 @@
+.btn-smooth {
+  border: none;
+  transition: none; }
+  .btn-smooth.btn-default {
+    background: #ddd;
+    background: -webkit-linear-gradient(bottom, #ddd, #e5e5e5);
+    background: linear-gradient(bottom, #ddd, #e5e5e5); }
+  .btn-smooth.btn-primary {
+    background: #0277BD;
+    background: -webkit-linear-gradient(bottom, #0277BD, #0294ea);
+    background: linear-gradient(bottom, #0277BD, #0294ea); }
+  .btn-smooth.btn-danger {
+    background: #F44336;
+    background: -webkit-linear-gradient(bottom, #F44336, #f66c62);
+    background: linear-gradient(bottom, #F44336, #f66c62); }
+  .btn-smooth.btn-warning {
+    background: #FF9800;
+    background: -webkit-linear-gradient(bottom, #FF9800, #ffab2e);
+    background: linear-gradient(bottom, #FF9800, #ffab2e); }
+  .btn-smooth.btn-info {
+    background: #673AB7;
+    background: -webkit-linear-gradient(bottom, #673AB7, #7f56c9);
+    background: linear-gradient(bottom, #673AB7, #7f56c9); }
+  .btn-smooth.btn-success {
+    background: #4CAF50;
+    background: -webkit-linear-gradient(bottom, #4CAF50, #6abe6e);
+    background: linear-gradient(bottom, #4CAF50, #6abe6e); }
+  .btn-smooth.active.disabled,
+  .btn-smooth:hover.disabled,
+  .btn-smooth.disabled,
+  .btn-smooth:active,
+  .btn-smooth:hover {
+    border: none; }
+    .btn-smooth.active.disabled.btn-default,
+    .btn-smooth:hover.disabled.btn-default,
+    .btn-smooth.disabled.btn-default,
+    .btn-smooth:active.btn-default,
+    .btn-smooth:hover.btn-default {
+      background: #ddd; }
+    .btn-smooth.active.disabled.btn-primary,
+    .btn-smooth:hover.disabled.btn-primary,
+    .btn-smooth.disabled.btn-primary,
+    .btn-smooth:active.btn-primary,
+    .btn-smooth:hover.btn-primary {
+      background: #0277BD; }
+    .btn-smooth.active.disabled.btn-danger,
+    .btn-smooth:hover.disabled.btn-danger,
+    .btn-smooth.disabled.btn-danger,
+    .btn-smooth:active.btn-danger,
+    .btn-smooth:hover.btn-danger {
+      background: #F44336; }
+    .btn-smooth.active.disabled.btn-warning,
+    .btn-smooth:hover.disabled.btn-warning,
+    .btn-smooth.disabled.btn-warning,
+    .btn-smooth:active.btn-warning,
+    .btn-smooth:hover.btn-warning {
+      background: #FF9800; }
+    .btn-smooth.active.disabled.btn-info,
+    .btn-smooth:hover.disabled.btn-info,
+    .btn-smooth.disabled.btn-info,
+    .btn-smooth:active.btn-info,
+    .btn-smooth:hover.btn-info {
+      background: #673AB7; }
+    .btn-smooth.active.disabled.btn-success,
+    .btn-smooth:hover.disabled.btn-success,
+    .btn-smooth.disabled.btn-success,
+    .btn-smooth:active.btn-success,
+    .btn-smooth:hover.btn-success {
+      background: #4CAF50; }
