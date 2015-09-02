@@ -63,6 +63,11 @@
   &:hover:not(.disabled),
   &:active:not(.disabled),
   &:focus:not(.disabled) {
+
+    &.dropdown-toggle {
+      color: white;
+    }
+
     color: white;
     border-bottom: 4px solid transparent;
 

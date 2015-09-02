@@ -3,3 +3,23 @@
   background: -webkit-linear-gradient($direction, $color-stops);
   background: linear-gradient($direction, $color-stops);
 }
+
+@mixin transition-timing($function) {
+  -webkit-transition-timing-function: $function;
+  transition-timing-function: $function;
+}
+
+@mixin transform($value...) {
+  -webkit-transform: $value;
+  transform: $value;
+}
+
+@mixin transition($value...) {
+  -webkit-transition: $value;
+  transition: $value;
+}
+
+@mixin transition-delay($value...) {
+  -webkit-transition-delay: $value;
+  transition-delay: $value;
+}
