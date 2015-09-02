@@ -1,0 +1,25 @@
+{
+  "name": "bunch-o-buttons",
+  "version": "1.0.0",
+  "description": "Bunch of buttons",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bower": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/headdetect/bunch-o-buttons.git"
+  },
+  "author": "headdetect <headdetective2@gmail.com>",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/headdetect/bunch-o-buttons/issues"
+  },
+  "homepage": "https://github.com/headdetect/bunch-o-buttons"
+}

@@ -25,6 +25,7 @@
     }
   }
 
+  &.btn-default-light { color: $default; border-color: $default }
   &.btn-default { color: $default-dark; border-color: $default-dark }
   &.btn-primary { color: $primary; border-color: $primary }
   &.btn-danger  { color: $danger; border-color: $danger }
@@ -38,6 +39,7 @@
   &:focus.disabled {
 
     background: transparent;
+    &.btn-default-light { color: $default; border-color: $default }
     &.btn-default { color: $default-dark; border-color: $default-dark }
     &.btn-primary { color: $primary; border-color: $primary }
     &.btn-danger  { color: $danger; border-color: $danger }
@@ -71,6 +73,7 @@
     color: white;
     border-bottom: 4px solid transparent;
 
+    &.btn-default-light { background-color: transparent; border-color: darken($default, 15%) }
     &.btn-default { background-color: $default-dark; border-color: darken($default-dark, 15%) }
     &.btn-primary { background-color: $primary; border-color: darken($primary, 15%) }
     &.btn-danger  { background-color: $danger; border-color: darken($danger, 15%) }

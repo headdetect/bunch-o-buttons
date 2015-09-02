@@ -1,7 +1,9 @@
+@import 'mixins';
+
 .btn {
   outline: 0;
   outline: none;
-  transition: 0.1s all ease;
+  @include transition(0.2s all ease);
   padding: 10px 20px;
   font-weight: 300;
   height: 50px;
