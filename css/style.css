@@ -1,0 +1,263 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+
+section {
+  width: 100%;
+  min-height: 300px;
+  padding: 150px 0;
+  margin: 0 auto;
+  font-weight: bold; }
+  section .btn {
+    font-weight: 400; }
+  section#buttons-header {
+    color: white;
+    background: #333; }
+    section#buttons-header h1 {
+      font-size: 6em;
+      font-weight: 900; }
+    section#buttons-header .buttons {
+      font-weight: 300;
+      margin-top: 100px; }
+  section#buttons-flat {
+    background: #fafafa; }
+  section#buttons-outline {
+    background: #f1f1f1; }
+  section#buttons-raised {
+    background: #fefefe; }
+  section#buttons-shiny {
+    background: #efefef;
+    background: -webkit-linear-gradient(top, #efefef, #fefefe);
+    background: linear-gradient(top, #efefef, #fefefe); }
+  section#buttons-smooth {
+    color: white;
+    background: url("/images/smooth-bg.jpg"); }
+    section#buttons-smooth .buttons-header:after {
+      background: white; }
+  section#buttons-droplets {
+    background: #eee;
+    color: #333; }
+  section span.buttons-header {
+    text-align: right;
+    font-size: 3em;
+    margin-bottom: 30px;
+    display: inline-block;
+    float: right;
+    position: relative; }
+    section span.buttons-header:after {
+      content: ' ';
+      height: 4px;
+      width: 100%;
+      position: absolute;
+      bottom: -5px;
+      right: 0;
+      background: #333; }
+  section .buttons-label {
+    margin: 30px auto;
+    text-align: right;
+    font-size: 2em;
+    height: 50px; }
+  section .buttons {
+    text-align: center;
+    margin: 30px auto; }
+    section .buttons .btn-group .btn {
+      margin-left: -1px;
+      margin-right: 0; }
+      section .buttons .btn-group .btn:first-child {
+        margin-left: 0; }
+    section .buttons .btn {
+      margin-left: 10px;
+      margin-right: 10px; }
+
+#color-selector.open #color-contents {
+  right: 0; }
+
+#color-selector.open #tab {
+  right: 420px; }
+
+#color-selector #color-contents {
+  -webkit-transition: right 500ms;
+  transition: right 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.88, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.88, 0, 0.2, 1);
+  z-index: 99;
+  position: fixed;
+  right: -420px;
+  top: 20%;
+  width: 420px;
+  height: 580px;
+  background: #fefefe;
+  border: 2px #666 solid;
+  padding: 10px; }
+  #color-selector #color-contents .scheme-name {
+    text-align: right;
+    display: block;
+    height: 42px;
+    margin: 10px 0;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 30px; }
+  #color-selector #color-contents .color-scheme {
+    margin: 10px 0;
+    padding: 5px;
+    display: table;
+    line-height: 0;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    -webkit-transition: border 300ms;
+    transition: border 300ms; }
+    #color-selector #color-contents .color-scheme:hover {
+      border-color: #ddd;
+      cursor: pointer; }
+    #color-selector #color-contents .color-scheme:focus {
+      border-color: #0277BD; }
+    #color-selector #color-contents .color-scheme span {
+      height: 30px;
+      width: 30px;
+      margin: 0;
+      padding: 0;
+      display: inline-block; }
+    #color-selector #color-contents .color-scheme.color-material .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-material .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-material .color-primary {
+      background: #0277BD; }
+    #color-selector #color-contents .color-scheme.color-material .color-success {
+      background: #4CAF50; }
+    #color-selector #color-contents .color-scheme.color-material .color-info {
+      background: #673AB7; }
+    #color-selector #color-contents .color-scheme.color-material .color-warning {
+      background: #FF9800; }
+    #color-selector #color-contents .color-scheme.color-material .color-danger {
+      background: #F44336; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-default-dark {
+      background: #333333; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-default {
+      background: #eeeeee; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-primary {
+      background: #337ab7; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-success {
+      background: #5cb85c; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-info {
+      background: #5bc0de; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-warning {
+      background: #f0ad4e; }
+    #color-selector #color-contents .color-scheme.color-bootstrap .color-danger {
+      background: #d9534f; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-default-dark {
+      background: #444; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-default {
+      background: #eee; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-primary {
+      background: #00a8e6; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-success {
+      background: #8cc14c; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-info {
+      background: #2d7091; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-warning {
+      background: #faa732; }
+    #color-selector #color-contents .color-scheme.color-uikit .color-danger {
+      background: #da314b; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-primary {
+      background: #69d2e7; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-success {
+      background: #a7dbd8; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-info {
+      background: #9a9e86; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-warning {
+      background: #f38630; }
+    #color-selector #color-contents .color-scheme.color-orangey .color-danger {
+      background: #fa6900; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-primary {
+      background: #44749d; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-success {
+      background: #449d61; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-info {
+      background: #a6b3be; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-warning {
+      background: #b2923d; }
+    #color-selector #color-contents .color-scheme.color-blueish .color-danger {
+      background: #b2563d; }
+    #color-selector #color-contents .color-scheme.color-neon .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-neon .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-neon .color-primary {
+      background: #1A1AFF; }
+    #color-selector #color-contents .color-scheme.color-neon .color-success {
+      background: #1AFF1A; }
+    #color-selector #color-contents .color-scheme.color-neon .color-info {
+      background: #8C1AFF; }
+    #color-selector #color-contents .color-scheme.color-neon .color-warning {
+      background: #FF8C1A; }
+    #color-selector #color-contents .color-scheme.color-neon .color-danger {
+      background: #FF1A1A; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-primary {
+      background: #300030; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-success {
+      background: #480047; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-info {
+      background: #601848; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-warning {
+      background: #f07241; }
+    #color-selector #color-contents .color-scheme.color-purpange .color-danger {
+      background: #c04848; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-primary {
+      background: #229A9A; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-success {
+      background: #2FAA2F; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-info {
+      background: #6C2D8E; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-warning {
+      background: #FF9238; }
+    #color-selector #color-contents .color-scheme.color-cozy .color-danger {
+      background: #FF3838; }
+    #color-selector #color-contents .color-scheme.color-rich .color-default-dark {
+      background: #333; }
+    #color-selector #color-contents .color-scheme.color-rich .color-default {
+      background: #ddd; }
+    #color-selector #color-contents .color-scheme.color-rich .color-primary {
+      background: #144CCC; }
+    #color-selector #color-contents .color-scheme.color-rich .color-success {
+      background: #3AC01E; }
+    #color-selector #color-contents .color-scheme.color-rich .color-info {
+      background: #29334A; }
+    #color-selector #color-contents .color-scheme.color-rich .color-warning {
+      background: #FFAA00; }
+    #color-selector #color-contents .color-scheme.color-rich .color-danger {
+      background: #E62424; }
+
+#color-selector #tab {
+  -webkit-transition: right 500ms;
+  transition: right 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.88, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.88, 0, 0.2, 1);
+  z-index: 99;
+  position: fixed;
+  right: 0;
+  top: 20%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #666;
+  padding: 10px; }
+  #color-selector #tab:hover {
+    cursor: pointer; }
+  #color-selector #tab span {
+    font-size: 30px; }
