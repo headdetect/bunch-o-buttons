@@ -30,7 +30,7 @@ section {
     background: linear-gradient(top, #efefef, #fefefe); }
   section#buttons-smooth {
     color: white;
-    background: url("/images/smooth-bg.jpg"); }
+    background: url("images/smooth-bg.jpg"); }
     section#buttons-smooth .buttons-header:after {
       background: white; }
   section#buttons-droplets {
