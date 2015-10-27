@@ -130,7 +130,7 @@
             <h1 class="text-center">Bunch-O-Buttons </h1>
 
             <div class="buttons text-center">
-                <a href="javascript:alert('replace link with wrapbootstrap link')" class="btn btn-shiny btn-default-light btn-big">Download Now!</a>
+                <a href="https://github.com/headdetect/bunch-o-buttons/tree/gh-pages" class="btn btn-shiny btn-default-light btn-big">Get it on GitHub!</a>
             </div>
         </div>
     </section>
@@ -721,7 +721,7 @@
     </section>
     <section id="buttons-download">
         <div class="container text-center">
-            <a href="javascript:alert('replace link with wrapbootstrap link')" class="btn btn-shiny btn-primary btn-big">Download Now!</a>
+            <a href="https://github.com/headdetect/bunch-o-buttons/tree/gh-pages" class="btn btn-shiny btn-primary btn-big">Get it on GitHub!</a>
         </div>
     </section>
 </div>
@@ -730,6 +730,7 @@
 <script src="bower_components/waypoints/lib/jquery.waypoints.js"></script>
 <script>
     (function ($) {
+        // I could make this a fancy react.js application, but really tho. This is like 34 lines (not including this one). //
         $(document).ready(function () {
             var thingys = $('.buttons,#buttons-header h1,.buttons-header,.buttons-label');
             thingys.css({'visibility': 'hidden'}); // Hide, but not forgotten... //
@@ -753,6 +754,7 @@
                 var target = event.currentTarget;
                 var clazz = target.classList[1];
 
+                // If they click this buttons a 1000 times, yes, there will be a 1000 imported style sheets //
                 var linky = document.createElement('link');
                 linky.setAttribute('type', 'text/css');
                 linky.setAttribute('rel', 'stylesheet');
